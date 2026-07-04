@@ -6,7 +6,7 @@ Dit is een eenvoudige tweetalige website voor GitHub Pages.
 - `nl.html` is de Nederlandse pagina
 - `styles.css` voor de vormgeving
 - `script.js` voor kleine automatische dingen
-- `assets/hero-translation.jpg` voor de grote foto bovenaan
+- `assets/lacramioara-bran.jpg` voor de persoonlijke foto bovenaan
 
 ## Online zetten via GitHub Pages
 
@@ -30,4 +30,4 @@ Controleer voor publicatie vooral:
 - of de omschrijving juridisch precies klopt
 - of ze zichzelf ook als beëdigd vertaler mag benoemen, of alleen als beëdigd tolk
 - of WhatsApp gebruikt mag worden voor klantcontact
-- of er een echte foto toegevoegd moet worden
+- of deze persoonlijke foto gebruikt mag worden op de openbare website
