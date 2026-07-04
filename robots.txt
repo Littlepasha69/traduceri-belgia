@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nancybaeyens.github.io/site-mama/sitemap.xml
+Sitemap: https://traduceri-belgia.be/sitemap.xml

@@ -6,33 +6,30 @@ Dit is een eenvoudige tweetalige website voor GitHub Pages.
 - `nl.html` is de Nederlandse pagina
 - `tolk-roemeens-nederlands.html` is de SEO-pagina voor "Roemeense tolk"
 - `vertaler-nederlands-roemeens.html` is de SEO-pagina voor "vertaler Nederlands Roemeens"
+- `traduceri-belgia.html` is de Roemeense SEO-pagina voor vertalingen en documenten
 - `styles.css` voor de vormgeving
 - `script.js` voor kleine automatische dingen
-- `assets/lacramioara-bran.jpg` voor de persoonlijke foto bovenaan
+- `assets/lacramioara-bran.webp` voor de snelle profielfoto op de pagina's
+- `assets/lacramioara-bran.jpg` als fallback/social preview
 - `sitemap.xml` en `robots.txt` helpen zoekmachines de site lezen
+- `CNAME` koppelt GitHub Pages aan `traduceri-belgia.be`
 
 ## Online zetten via GitHub Pages
 
-1. Maak op GitHub een nieuwe repository, bijvoorbeeld `site-mama`.
+1. Maak op GitHub een nieuwe repository.
 2. Upload alle bestanden uit deze map naar die repository.
 3. Ga in GitHub naar `Settings` en daarna `Pages`.
 4. Kies bij `Build and deployment` voor `Deploy from a branch`.
 5. Kies branch `main` en folder `/root`.
 6. Klik op `Save`.
 
-Daarna staat de site meestal binnen een paar minuten online op:
+De site is voorbereid voor dit domein:
 
 ```text
-https://gebruikersnaam.github.io/site-mama/
+https://traduceri-belgia.be/
 ```
 
-De SEO-bestanden gebruiken nu voorlopig:
-
-```text
-https://nancybaeyens.github.io/site-mama/
-```
-
-Als de repository of GitHub-gebruikersnaam anders wordt, vervang die URL in de HTML-bestanden, `sitemap.xml` en `robots.txt`.
+Laat het bestand `CNAME` in de root staan wanneer de site naar GitHub wordt gepusht.
 
 ## Nog invullen
 
