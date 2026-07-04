@@ -140,10 +140,10 @@ nav a {
 .hero-photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 4;
+  height: clamp(440px, 46vw, 592px);
   border-radius: 6px;
   object-fit: cover;
-  object-position: 14% center;
+  object-position: center center;
   filter: brightness(1.06) saturate(0.93);
 }
 
@@ -227,7 +227,7 @@ h1 {
 
 .quick-contact {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
   background: var(--line);
   border-block: 1px solid var(--line);
@@ -290,6 +290,37 @@ h2 {
 .service-grid p {
   margin: 0;
   color: var(--muted);
+}
+
+.service-grid a {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--red-dark);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.seo-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.48fr);
+  gap: clamp(28px, 6vw, 72px);
+  align-items: center;
+  width: min(1120px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 76px 0 58px;
+}
+
+.seo-hero h1 {
+  max-width: 13ch;
+}
+
+.hero-photo.small {
+  max-width: 360px;
+  justify-self: end;
+}
+
+.hero-photo.small img {
+  height: clamp(380px, 42vw, 520px);
 }
 
 .contact-section {
@@ -361,6 +392,7 @@ h2 {
   }
 
   .hero,
+  .seo-hero,
   .contact-section {
     grid-template-columns: 1fr;
   }
@@ -374,9 +406,13 @@ h2 {
     max-width: 520px;
   }
 
+  .hero-photo.small {
+    justify-self: start;
+  }
+
   .hero-photo img {
-    aspect-ratio: 16 / 10;
-    object-position: 18% center;
+    height: clamp(210px, 54vw, 290px);
+    object-position: center center;
   }
 
   .quick-contact,
@@ -395,6 +431,7 @@ h2 {
   }
 
   .hero,
+  .seo-hero,
   .section,
   .contact-section {
     width: min(100% - 30px, 1120px);
