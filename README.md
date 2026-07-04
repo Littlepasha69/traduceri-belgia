@@ -9,8 +9,8 @@ Dit is een eenvoudige tweetalige website voor GitHub Pages.
 - `traduceri-belgia.html` is de Roemeense SEO-pagina voor vertalingen en documenten
 - `styles.css` voor de vormgeving
 - `script.js` voor kleine automatische dingen
-- `assets/lacramioara-bran.webp` voor de snelle profielfoto op de pagina's
-- `assets/lacramioara-bran.jpg` als fallback/social preview
+- `assets/lacramioara-bran-traducator-interpret-autorizat-belgia.webp` voor de snelle profielfoto op de pagina's
+- `assets/lacramioara-bran-traducator-interpret-autorizat-belgia.jpg` als fallback/social preview
 - `sitemap.xml` en `robots.txt` helpen zoekmachines de site lezen
 - `CNAME` koppelt GitHub Pages aan `traduceri-belgia.be`
 
