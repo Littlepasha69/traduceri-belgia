@@ -1,11 +1,12 @@
-# Site mama
+# Website Lacramioara Bran
 
-Dit is een eenvoudige website voor GitHub Pages. De site bestaat uit gewone bestanden:
+Dit is een eenvoudige tweetalige website voor GitHub Pages.
 
-- `index.html` voor de tekst en structuur
+- `index.html` is de Roemeense startpagina
+- `nl.html` is de Nederlandse pagina
 - `styles.css` voor de vormgeving
 - `script.js` voor kleine automatische dingen
-- `assets/hero-workspace.jpg` voor de grote foto bovenaan
+- `assets/hero-translation.jpg` voor de grote foto bovenaan
 
 ## Online zetten via GitHub Pages
 
@@ -24,13 +25,9 @@ https://gebruikersnaam.github.io/site-mama/
 
 ## Nog invullen
 
-Vervang in `index.html` vooral:
+Controleer voor publicatie vooral:
 
-- `Naam van je moeder`
-- `plaatsnaam`
-- de drie diensten
-- telefoonnummer
-- e-mailadres
-- de tekst bij `Over haar`
-
-Als er een echte foto is, vervang dan `assets/hero-workspace.jpg` of voeg een portret toe in de over-sectie.
+- of de omschrijving juridisch precies klopt
+- of ze zichzelf ook als beëdigd vertaler mag benoemen, of alleen als beëdigd tolk
+- of WhatsApp gebruikt mag worden voor klantcontact
+- of er een echte foto toegevoegd moet worden
