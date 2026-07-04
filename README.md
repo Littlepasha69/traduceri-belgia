@@ -39,6 +39,6 @@ Als de repository of GitHub-gebruikersnaam anders wordt, vervang die URL in de H
 Controleer voor publicatie vooral:
 
 - of de omschrijving juridisch precies klopt
-- of er later officiële titels toegevoegd moeten worden
+- of de officiële termen exact zo geformuleerd moeten blijven
 - of WhatsApp gebruikt mag worden voor klantcontact
 - of deze persoonlijke foto gebruikt mag worden op de openbare website
