@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Naam van je moeder | Persoonlijke dienstverlening in plaatsnaam</title>
+    <meta
+      name="description"
+      content="Persoonlijke dienstverlening van Naam van je moeder in plaatsnaam. Neem contact op voor een kennismaking of afspraak."
+    >
+    <meta name="theme-color" content="#2f6f57">
+    <meta property="og:title" content="Naam van je moeder">
+    <meta
+      property="og:description"
+      content="Een rustige, duidelijke plek waar klanten snel zien wat ze doet en hoe ze contact kunnen opnemen."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/hero-workspace.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Terug naar boven">
+        <span class="brand-mark">N</span>
+        <span>
+          <strong>Naam van je moeder</strong>
+          <small>Persoonlijke dienstverlening</small>
+        </span>
+      </a>
+      <nav aria-label="Hoofdnavigatie">
+        <a href="#diensten">Diensten</a>
+        <a href="#over">Over</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/hero-workspace.jpg" alt="" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">In plaatsnaam en omgeving</p>
+          <h1 id="hero-title">Rustige, persoonlijke hulp waar klanten zich welkom voelen.</h1>
+          <p class="hero-text">
+            Voor klanten die graag duidelijk contact, zorgvuldige afspraken en een vertrouwd gezicht dichtbij huis zoeken.
+          </p>
+          <div class="hero-actions" aria-label="Belangrijkste acties">
+            <a class="button primary" href="#contact">Neem contact op</a>
+            <a class="button secondary" href="#diensten">Bekijk diensten</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Kernpunten">
+        <div>
+          <strong>Persoonlijk</strong>
+          <span>Aandacht voor elke klant.</span>
+        </div>
+        <div>
+          <strong>Dichtbij</strong>
+          <span>In de buurt en makkelijk bereikbaar.</span>
+        </div>
+        <div>
+          <strong>Duidelijk</strong>
+          <span>Heldere afspraken vooraf.</span>
+        </div>
+      </section>
+
+      <section class="section" id="diensten" aria-labelledby="diensten-title">
+        <div class="section-heading">
+          <p class="eyebrow">Wat ze doet</p>
+          <h2 id="diensten-title">Diensten</h2>
+          <p>
+            Een helder overzicht van de belangrijkste manieren waarop zij klanten helpt.
+          </p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">01</span>
+            <h3>Persoonlijke begeleiding</h3>
+            <p>Rustige aandacht, duidelijke uitleg en een aanpak die past bij de vraag van de klant.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">02</span>
+            <h3>Advies op maat</h3>
+            <p>Praktisch meedenken, heldere keuzes bespreken en samen kijken wat de beste volgende stap is.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">03</span>
+            <h3>Kennismaking of afspraak</h3>
+            <p>Nieuwe klanten kunnen laagdrempelig contact opnemen voor een eerste vraag of afspraak.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="over" aria-labelledby="over-title">
+        <div class="portrait-panel" aria-hidden="true">
+          <div class="portrait-initial">N</div>
+        </div>
+        <div>
+          <p class="eyebrow">Over haar</p>
+          <h2 id="over-title">Een vertrouwd gezicht voor klanten in de buurt.</h2>
+          <p>
+            Naam van je moeder werkt met aandacht, rust en duidelijke afspraken. Klanten weten waar ze aan toe zijn
+            en krijgen de ruimte om hun vraag goed uit te leggen.
+          </p>
+          <p>
+            Door haar persoonlijke manier van werken voelt contact snel vertrouwd, zonder dat het ingewikkeld hoeft te worden.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Maak makkelijk een afspraak.</h2>
+          <p>
+            Bel, mail of stuur een kort bericht. Er wordt zo snel mogelijk contact opgenomen.
+          </p>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-card">
+            <h3>Contactgegevens</h3>
+            <dl>
+              <div>
+                <dt>Telefoon</dt>
+                <dd><a data-phone-link href="#">06 00 00 00 00</a></dd>
+              </div>
+              <div>
+                <dt>E-mail</dt>
+                <dd><a data-email-link href="#">naam@example.nl</a></dd>
+              </div>
+              <div>
+                <dt>Regio</dt>
+                <dd>Plaatsnaam en omgeving</dd>
+              </div>
+            </dl>
+          </div>
+          <form class="contact-card contact-form" action="mailto:naam@example.nl" method="post" enctype="text/plain">
+            <label>
+              Naam
+              <input name="naam" autocomplete="name" required>
+            </label>
+            <label>
+              E-mail of telefoon
+              <input name="contact" autocomplete="email" required>
+            </label>
+            <label>
+              Bericht
+              <textarea name="bericht" rows="5" required></textarea>
+            </label>
+            <button class="button primary" type="submit">Verstuur bericht</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Naam van je moeder. Alle rechten voorbehouden.</p>
+      <a href="#top">Naar boven</a>
+    </footer>
+  </body>
+</html>
