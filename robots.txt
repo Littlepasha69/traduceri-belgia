@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://traduceri-belgia.be/sitemap.xml
+Sitemap: https://www.traduceri-belgia.be/sitemap.xml

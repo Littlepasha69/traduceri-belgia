@@ -1,41 +1,43 @@
 # Website Lacramioara Bran
 
-Dit is een eenvoudige tweetalige website voor GitHub Pages.
+Eenvoudige statische website voor GitHub Pages.
 
-- `index.html` is de Roemeense startpagina
-- `nl.html` is de Nederlandse pagina
-- `tolk-roemeens-nederlands.html` is de SEO-pagina voor "Roemeense tolk"
-- `vertaler-nederlands-roemeens.html` is de SEO-pagina voor "vertaler Nederlands Roemeens"
-- `traduceri-belgia.html` is de Roemeense SEO-pagina voor vertalingen en documenten
-- `styles.css` voor de vormgeving
-- `script.js` voor kleine automatische dingen
-- `assets/lacramioara-bran-traducator-interpret-autorizat-belgia.webp` voor de snelle profielfoto op de pagina's
-- `assets/lacramioara-bran-traducator-interpret-autorizat-belgia.jpg` als fallback/social preview
-- `sitemap.xml` en `robots.txt` helpen zoekmachines de site lezen
-- `CNAME` koppelt GitHub Pages aan `traduceri-belgia.be`
+## Structuur
 
-## Online zetten via GitHub Pages
+- `index.html` is de Roemeense one-page homepage.
+- `nl/index.html` is de Nederlandse one-page versie.
+- `traduceri-belgia.html`, `tolk-roemeens-nederlands.html` en `vertaler-nederlands-roemeens.html` blijven voorlopig compacte ondersteunende landingspagina's.
+- `assets/css/main.css` bevat de gedeelde styling en design tokens.
+- `assets/images/` bevat de responsive hero- en Open Graph-afbeeldingen.
+- `404.html` is de GitHub Pages foutpagina.
+- `sitemap.xml` en `robots.txt` gebruiken de canonieke www-versie.
+- `CNAME` koppelt GitHub Pages aan `www.traduceri-belgia.be`.
 
-1. Maak op GitHub een nieuwe repository.
-2. Upload alle bestanden uit deze map naar die repository.
-3. Ga in GitHub naar `Settings` en daarna `Pages`.
-4. Kies bij `Build and deployment` voor `Deploy from a branch`.
-5. Kies branch `main` en folder `/root`.
-6. Klik op `Save`.
+## Canoniek domein
 
-De site is voorbereid voor dit domein:
+Gebruik overal:
 
 ```text
-https://traduceri-belgia.be/
+https://www.traduceri-belgia.be/
 ```
 
-Laat het bestand `CNAME` in de root staan wanneer de site naar GitHub wordt gepusht.
+De niet-www-versie moet via DNS/GitHub Pages doorverwijzen naar de www-versie.
 
-## Nog invullen
+## Publicatie
 
-Controleer voor publicatie vooral:
+GitHub Pages:
 
-- of de omschrijving juridisch precies klopt
-- of de officiële termen exact zo geformuleerd moeten blijven
-- of WhatsApp gebruikt mag worden voor klantcontact
-- of deze persoonlijke foto gebruikt mag worden op de openbare website
+1. Deploy from a branch.
+2. Branch: `main`.
+3. Folder: `/root`.
+4. Custom domain: `www.traduceri-belgia.be`.
+
+Laat `CNAME` en `.nojekyll` in de root staan.
+
+## Controle voor publicatie
+
+- DNS en HTTPS voor `www.traduceri-belgia.be`.
+- Doorverwijzing van `traduceri-belgia.be` naar `www.traduceri-belgia.be`.
+- Juridische formuleringen rond beëdigd/geautoriseerd, legalisatie en apostille.
+- Toestemming voor gebruik van de portretfoto.
+- Of WhatsApp gebruikt mag worden voor klantcontact.
