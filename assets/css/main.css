@@ -27,6 +27,7 @@
   --space-4: 1rem;
   --space-5: 1.25rem;
   --space-6: 1.5rem;
+  --space-7: 1.75rem;
   --space-8: 2rem;
   --space-10: 2.5rem;
   --space-12: 3rem;
@@ -161,8 +162,11 @@ h3 {
 }
 
 .site-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
   border-radius: var(--radius-sm);
-  padding: 0.45rem 0.1rem;
+  padding: 0.45rem 0.35rem;
   text-decoration: none;
 }
 
@@ -181,7 +185,7 @@ h3 {
   box-shadow: 0 0.5rem 1.25rem rgb(62 48 35 / 8%);
   color: var(--color-text);
   font-size: 1.05rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .section,
@@ -209,7 +213,7 @@ h3 {
   margin: 0 0 var(--space-3);
   color: var(--color-olive-dark);
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -278,7 +282,7 @@ h3 {
   padding: 0.85rem 1.15rem;
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
-  font-weight: 900;
+  font-weight: 800;
   text-align: center;
   text-decoration: none;
   transition:
@@ -326,10 +330,13 @@ h3 {
 
 .hero-media {
   align-self: center;
+  justify-self: center;
+  width: min(100%, 34rem);
   margin: 0;
 }
 
 .hero-frame {
+  aspect-ratio: 4 / 5;
   overflow: hidden;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
@@ -337,9 +344,14 @@ h3 {
   box-shadow: var(--shadow-soft);
 }
 
+.hero-frame picture {
+  width: 100%;
+  height: 100%;
+}
+
 .hero-image {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: 100%;
   object-fit: cover;
   object-position: 66% 46%;
 }
@@ -369,7 +381,7 @@ h3 {
   padding: var(--space-4);
   background: var(--color-surface);
   color: var(--color-text);
-  font-weight: 850;
+  font-weight: 800;
   text-align: center;
   text-decoration: none;
 }
@@ -499,7 +511,7 @@ h3 {
   border-radius: 50%;
   background: var(--color-olive);
   color: var(--color-surface);
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .faq-list {
@@ -526,7 +538,7 @@ h3 {
   gap: var(--space-4);
   padding: var(--space-5);
   color: var(--color-text);
-  font-weight: 850;
+  font-weight: 800;
   cursor: pointer;
   list-style: none;
 }
@@ -544,7 +556,7 @@ h3 {
   border-radius: 50%;
   background: var(--color-bg-muted);
   color: var(--color-olive-dark);
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .faq-item[open] summary {
@@ -590,7 +602,7 @@ h3 {
 .contact-line span {
   color: var(--color-text-muted);
   font-size: 0.82rem;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -615,6 +627,9 @@ h3 {
 }
 
 .site-footer a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
   color: var(--color-red-hover);
   font-weight: 800;
   text-decoration: none;
@@ -658,10 +673,14 @@ h3 {
 
   .hero-media {
     order: 2;
+    justify-self: end;
+  }
+
+  .hero-frame {
+    aspect-ratio: 12 / 13;
   }
 
   .hero-image {
-    aspect-ratio: 12 / 13;
     object-position: 58% 50%;
   }
 
@@ -681,25 +700,35 @@ h3 {
 }
 
 @media (max-width: 47.99rem) {
+  .hero-media {
+    order: -1;
+  }
+
   .header-inner {
     align-items: flex-start;
     flex-direction: column;
   }
 
   .site-nav {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     width: 100%;
-    justify-content: flex-start;
-    overflow-x: auto;
-    padding-bottom: var(--space-1);
-    scrollbar-width: none;
-  }
-
-  .site-nav::-webkit-scrollbar {
-    display: none;
+    gap: var(--space-2);
+    overflow: visible;
+    padding-bottom: 0;
   }
 
   .brand-role {
     display: none;
+  }
+
+  .site-nav a {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .language-switch {
+    min-width: 0;
   }
 
   .hero-actions,
