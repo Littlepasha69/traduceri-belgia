@@ -353,7 +353,7 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 66% 46%;
+  object-position: 50% 50%;
 }
 
 .photo-caption {
@@ -681,7 +681,7 @@ h3 {
   }
 
   .hero-image {
-    object-position: 58% 50%;
+    object-position: 50% 50%;
   }
 
   .quick-contact {
